@@ -1,9 +1,0 @@
-[submodule "shell-novice"]
-	path = shell
-	url = https://github.com/swcarpentry/shell-novice.git
-[submodule "git-novice"]
-	path = git
-	url = https://github.com/swcarpentry/git-novice.git
-[submodule "python-novice-inflammation"]
-	path = python
-	url = https://github.com/swcarpentry/python-novice-inflammation.git
