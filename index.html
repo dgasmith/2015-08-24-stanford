@@ -37,7 +37,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="206px"
+  height="248px"
   scrolling="auto">
 </iframe>
 {% endif %}
@@ -301,9 +301,8 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   To participate in a Software Carpentry workshop, you will need
   access to the software described below. In addition, you will
   need an up-to-date web browser.
-  Once you are done installing the software listed below,
-  please go to <a href="setup/index.html">this page</a>,
-  which has instructions on how to test that everything was installed correctly.
+</p>
+<p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
@@ -321,9 +320,14 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
       <p>
-        Install Git for Windows by downloading and running
-        <a href="http://msysgit.github.io/">the installer</a>.
-        This will provide you with both Git and Bash in the Git Bash program.
+        Download the Git for Windows
+	<a href="https://git-for-windows.github.io/">installer</a>. Run the
+        installer. <strong>Important: on the 6th page of the installation wizard (the
+        page titled `Configuring the terminal emulator...`) select `Use Windows'
+        default console window`. If you forgot to do this programs that you need
+        for the workshop will not work properly. If this happens rerun the
+        installer and select the appropriate option.</strong> This will provide you
+        with both Git and Bash in the Git Bash program.
       </p>
     </div>
     <div class="col-md-4">
@@ -549,5 +553,10 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       </ol>
     </div>
   </div>
+  <p>
+  Once you are done installing the software listed above,
+  please go to <a href="setup/index.html">this page</a>,
+  which has instructions on how to test that everything was installed correctly.
+  </p>
 </div> <!-- End of 'Python' section. -->
 
